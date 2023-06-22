@@ -33,7 +33,7 @@ class Contact
      */
     private $message;
 
-    // Getter and Setter methods
+    // Getter and Setter metódus
 
     public function getId(): ?int
     {
