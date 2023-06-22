@@ -50,7 +50,7 @@ class ContactController extends AbstractController
             }
         }
     
-        // Render the contact form template
+        // Contact form renderelése
         return $this->render('contact/index.html.twig');
     }
 }
