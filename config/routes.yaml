@@ -1,5 +1,9 @@
+# config/routes.yaml
+
+contact:
+    path: /contact
+    controller: App\Controller\ContactController::index
+
 controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+    resource: ../src/Controller/
+    type: annotation
