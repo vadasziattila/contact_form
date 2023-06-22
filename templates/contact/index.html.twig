@@ -6,7 +6,7 @@
     <title>Contact Form</title>
     {% block stylesheets %}
         {{ encore_entry_link_tags('app') }}
-        <!-- Add the following line to include Bootstrap CSS -->
+        <!-- Bootstrap CSS meghívása -->
         <link rel="stylesheet" href="{{ asset('build/app.css') }}">
     {% endblock %}
 </head>
@@ -44,7 +44,7 @@
 
 {% block javascript %}
     {{ encore_entry_script_tags('app') }}
-    <!-- Add the following line to include Bootstrap JavaScript -->
+    <!-- Bootstrap JavaScript meghívása -->
     <script src="{{ asset('build/app.js') }}"></script>
 {% endblock %}
 </body>
